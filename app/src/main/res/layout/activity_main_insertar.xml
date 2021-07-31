@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityInsertar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Mascota"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        />
+    <EditText
+        android:id="@+id/edtNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Nombre Mascota"
+        />
+    <EditText
+        android:id="@+id/edtRazaMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Raza Mascota"
+        />
+    <EditText
+        android:id="@+id/edtColorMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Color Mascota"
+        />
+    <EditText
+        android:id="@+id/edtEdadMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="25sp"
+        android:hint="Edad Mascota"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btninsertarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Insertar Mascota"
+        android:backgroundTint="#00C853"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
